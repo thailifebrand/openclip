@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const updateStatus = () => {
         if (hasPlayedToEnd) {
-            statusMessage.textContent = 'เรียนจบแล้ว 🎉';
+            statusMessage.textContent = 'เรียนครบ 30 วินาทีแล้ว 🎉';
             statusMessage.classList.add('complete');
             statusMessage.classList.remove('incomplete');
         } else {
-            statusMessage.textContent = 'ยังเรียนไม่จบ 😢';
+            statusMessage.textContent = 'ยังเรียนไม่ครบ 30 วินาที 😢';
             statusMessage.classList.add('incomplete');
             statusMessage.classList.remove('complete');
         }
